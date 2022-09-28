@@ -110,21 +110,15 @@ Console.Clear();
 // 46 -> нет
 // 161 -> да
 
- Console.WriteLine("Введите число");
- int num = Convert.ToInt32(Console.ReadLine());
-int num1 = num%7;
-int num2 = num%23;
+//  Console.WriteLine("Введите число");
+//  int num = Convert.ToInt32(Console.ReadLine());
+// int num1 = num%7;
+// int num2 = num%23;
 
 
-// Console.WriteLine(div);
-if ((num1 == 0)&&(num2 == 0))
-{
-    Console.WriteLine("yes");
-}
-else
-{
-    Console.WriteLine("no");
-}
+// // Console.WriteLine(div);
+// if (num1 == 0 && num2 == 0)Console.WriteLine("yes");
+// else Console.WriteLine("no");
 
 
 // Stanislav N: 16. Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого.
